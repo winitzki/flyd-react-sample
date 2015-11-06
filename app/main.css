@@ -11,6 +11,7 @@ body {
 button {
   font-size: 24px;
   width: 200px;
+  margin-top: 10px;
 }
 
 p.title {
