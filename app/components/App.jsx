@@ -17,7 +17,9 @@ export default class App extends React.Component {
       <button onClick={coffee}>Make coffee</button>
       <span className="lines_of_code">Committed: {this.state.committed}</span>
       <span className="lines_of_code">Uncommitted: {this.state.uncommitted}</span>
-      {this.state.can_commit ? <button onClick={commit}>Push a commit</button> : undefined}
+      {this.state.can_commit
+        ? <button onClick={commit}>Push a commit</button>
+        : undefined}
     </div>
   }
 
